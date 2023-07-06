@@ -7,7 +7,7 @@ public:
     {
         int r = m.size();
         int c = m[0].size();
-        bool fr = false, fc = false;
+        bool fr = false, fc = false; 
         // find zeros and update first row and column
         for (int i = 0; i < r; i++)
         {
